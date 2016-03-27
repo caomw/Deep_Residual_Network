@@ -5,3 +5,7 @@ Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun, "Identity Mappings in Deep Re
 
 Implemented various bottleneck architecture, dropout bottleneck etc
 Proposed new bootleneck architecture using modified Inception module
+
+## Usage
+ 
+ THEANO_FLAGS=device=gpu0,floatX=float32,profile=True python resnetcifar.py [options]
