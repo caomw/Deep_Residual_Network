@@ -8,4 +8,4 @@ Proposed new bootleneck architecture using modified Inception module
 
 ## Usage
  
- `THEANO_FLAGS=device=gpu0,floatX=float32,profile=True python resnetcifar.py [options]`
+ `THEANO_FLAGS=device=gpu0,floatX=float32 python resnetcifar.py [options]`
